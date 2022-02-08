@@ -10,22 +10,20 @@ const Main = () => {
   const { name, position, nationality, squad_number, image, career} = players[index];
 
   const setPlayerIcon = (position) => {
-    console.log("Inside playerIcon function")
-    console.log(position)
-    if (position === 'goalkeeper') {
-      return <FontAwesomeIcon icon={faHandDots} />
-    }
-    if (position === 'defender') {
-      return <FontAwesomeIcon icon={faShield} />
-    }
-    if (position === 'midfielder') {
-      return <FontAwesomeIcon icon={faToolbox} />
-    }
-    if (position === 'winger') {
-      return <FontAwesomeIcon icon={faPersonRunning} />
-    }
-    if (position === 'striker') {
-      return <FontAwesomeIcon icon={faFutbol} />
+
+    switch (position) {
+      case 'goalkeeper':
+        return <FontAwesomeIcon icon={faHandDots} />
+      case 'defender':
+        return <FontAwesomeIcon icon={faShield} />
+      case 'midfielder':
+        return <FontAwesomeIcon icon={faToolbox} />
+      case 'winger':
+        return <FontAwesomeIcon icon={faPersonRunning} />
+      case 'striker':
+        return <FontAwesomeIcon icon={faFutbol} />
+      default:
+        return <FontAwesomeIcon icon={faFutbol} />
     }
   }
 
