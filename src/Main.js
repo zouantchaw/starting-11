@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import people from './data';
+import players from './data';
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 
-const Review = () => {
-  return <h2>review component</h2>;
+const Main = () => {
+  return <h2>Main component</h2>;
 };
 
-export default Review;
+export default Main;
