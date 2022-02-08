@@ -13,7 +13,7 @@ const starting_11 = [
   {
     id: 2,
     name: "jose bosingwa",
-    position: "defender(right back)",
+    position: "defender",
     nationality: "portugal",
     squad_number: 17,
     image:
@@ -24,7 +24,7 @@ const starting_11 = [
   {
     id: 3,
     name: "david luiz",
-    position: "defender(center back)",
+    position: "defender",
     nationality: "brazil",
     squad_number: 4,
     image:
@@ -35,7 +35,7 @@ const starting_11 = [
   {
     id: 4,
     name: "david cahill",
-    position: "defender(center back)",
+    position: "defender",
     nationality: "england",
     squad_number: 24,
     image:
@@ -46,7 +46,7 @@ const starting_11 = [
   {
     id: 5,
     name: "ashley cole",
-    position: "defender(left back)",
+    position: "defender",
     nationality: "england",
     squad_number: 3,
     image:
@@ -57,7 +57,7 @@ const starting_11 = [
   {
     id: 6,
     name: "frank lampard",
-    position: "midfielder(attacking)",
+    position: "midfielder",
     nationality: "england",
     squad_number: 8,
     image:
