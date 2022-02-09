@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Main = () => {
-  const [index, setIndex] = useState(8);
+  const [index, setIndex] = useState(0);
   const { name, position, nationality, squad_number, image, career } =
     players[index];
 
@@ -32,6 +32,31 @@ const Main = () => {
     }
   };
 
+  const checkNumber = (number) => {
+    if (number > players.length - 1) {
+      return 0
+    }
+    if (number < 0) {
+      return players.length - 1;
+    }
+    return number;
+  }
+
+  const nextPlayer = () => {
+    setIndex((index) => {
+      let newIndex = index + 1
+      return checkNumber(newIndex);
+    })
+  }
+
+  const prevPlayer = () => {
+    // if index equals the 
+    setIndex((index) => {
+      let newIndex = index - 1
+      return checkNumber(newIndex)
+    })
+  }
+
   return (
     <article className="review">
       <div className="img-container">
@@ -41,14 +66,16 @@ const Main = () => {
       <h4 className="name">
         {squad_number} {name}
         {nationality}
+        {console.log(index)}
+        {console.log(players.length)}
       </h4>
       <h4 className="position">{position}</h4>
       <p className="career">{career}</p>
       <div className="button-container">
-        <button className="prev-btn">
+        <button className="prev-btn" onClick={prevPlayer}>
           <FaChevronLeft />
         </button>
-        <button className="next-btn">
+        <button className="next-btn" onClick={nextPlayer}>
           <FaChevronRight />
         </button>
       </div>
