@@ -3,7 +3,7 @@ const starting_11 = [
     id: 1,
     name: "petr cech",
     position: "goalkeeper",
-    nationality: "czechoslovakia",
+    nationality: "🇨🇿",
     squad_number: 1, 
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Petr_%C4%8Cech_Chelsea_2013.jpg/502px-Petr_%C4%8Cech_Chelsea_2013.jpg",
@@ -14,7 +14,7 @@ const starting_11 = [
     id: 2,
     name: "jose bosingwa",
     position: "defender",
-    nationality: "portugal",
+    nationality: "🇵🇹",
     squad_number: 17,
     image:
       "https://cdn.vox-cdn.com/thumbor/y5nLxBevQ6bjH2Jo3gvJZuuiv74=/0x0:1000x667/920x613/filters:focal(0x0:1000x667):format(webp)/cdn.vox-cdn.com/photo_images/6792715/143900844.jpg",
@@ -25,7 +25,7 @@ const starting_11 = [
     id: 3,
     name: "david luiz",
     position: "defender",
-    nationality: "brazil",
+    nationality: "🇧🇷",
     squad_number: 4,
     image:
       "https://m.media-amazon.com/images/M/MV5BYjFmNGQ3NGItNDcwYS00NDllLWIyY2QtYWQ2NWE1NjY5Yjk0XkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_UY317_CR175,0,214,317_AL_.jpg",
@@ -36,7 +36,7 @@ const starting_11 = [
     id: 4,
     name: "david cahill",
     position: "defender",
-    nationality: "england",
+    nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     squad_number: 24,
     image:
       "https://www.thesun.co.uk/wp-content/uploads/2017/10/nintchdbpict000361067292-e1508362148473.jpg?w=620",
@@ -47,7 +47,7 @@ const starting_11 = [
     id: 5,
     name: "ashley cole",
     position: "defender",
-    nationality: "england",
+    nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     squad_number: 3,
     image:
       "https://www.vbetnews.com/wp-content/uploads/2020/04/Ashley-Cole-October-2012_2841291-1024x576.jpg",
@@ -58,7 +58,7 @@ const starting_11 = [
     id: 6,
     name: "frank lampard",
     position: "midfielder",
-    nationality: "england",
+    nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     squad_number: 8,
     image:
       "https://m.media-amazon.com/images/M/MV5BNmU1NzhkODYtZWQwMC00YzNkLTlhNDgtOWRmNWE2ZDI4Y2ZiXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_UY317_CR131,0,214,317_AL_.jpg",
@@ -69,7 +69,7 @@ const starting_11 = [
     id: 7,
     name: "salomon kalou",
     position: "winger",
-    nationality: "cote d'ivoire",
+    nationality: "🇨🇮",
     squad_number: 21,
     image:
       "https://resources.premierleague.com/premierleague/photos/players/250x250/p37352.png",
@@ -80,7 +80,7 @@ const starting_11 = [
     id: 8,
     name: "juan mata",
     position: "midfielder",
-    nationality: "spain",
+    nationality: "🇪🇸",
     squad_number: 10,
     image:
       "https://sm.imgix.net/13/32/juan-mata-chelsea.jpg?w=640&h=480&auto=compress,format&fit=clip",
@@ -91,7 +91,7 @@ const starting_11 = [
     id: 9,
     name: "ryan bertrand",
     position: "defender",
-    nationality: "england",
+    nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     squad_number: 34,
     image:
       "https://cdn.images.express.co.uk/img/dynamic/67/590x/ryan-bertrand-445695.jpg",
@@ -102,7 +102,7 @@ const starting_11 = [
     id: 10,
     name: "john obi-mikel",
     position: "midfielder",
-    nationality: "nigeria",
+    nationality: "🇳🇬",
     squad_number: 12,
     image:
       "https://i0.wp.com/thesefootballtimes.co/wp-content/uploads/2020/05/mikel.jpg?resize=768%2C538&ssl=1",
@@ -113,7 +113,7 @@ const starting_11 = [
     id: 11,
     name: "didier drogba",
     position: "striker",
-    nationality: "cote d'ivoire",
+    nationality: "🇨🇮",
     squad_number: 11,
     image:
       "https://static.independent.co.uk/s3fs-public/thumbnails/image/2012/05/22/20/pg-68-drogba-goodbye-2-gett.jpg?quality=75&width=640&auto=webp&crop=982:726,smart",
