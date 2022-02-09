@@ -209,16 +209,16 @@ main {
   right: -0.5rem;
   border-radius: 50%;
 }
-.author {
+.name {
   margin-bottom: 0.25rem;
 }
-.job {
+.position {
   margin-bottom: 0.5rem;
   text-transform: uppercase;
   color: var(--clr-primary-5);
   font-size: 0.85rem;
 }
-.info {
+.career {
   margin-bottom: 0.75rem;
 }
 .prev-btn,
